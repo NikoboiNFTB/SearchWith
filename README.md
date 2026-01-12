@@ -25,7 +25,7 @@ about:debugging#/runtime/this-firefox
 ```
 
 2. Click **“Load Temporary Add-on…”**
-3. Select the extension’s [`manifest.json`](1.0/manifest.json) file from the [project folder](1.0).
+3. Select the extension’s [`manifest.json`](1.0/manifest.json) file from the project folder ([`1.0`](1.0)).
 
 >> Note: The extension will be removed when Firefox restarts. This is not up to me to change.
 
