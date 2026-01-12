@@ -20,8 +20,8 @@ You will need to add it using temporary extensions:
 
 1. Open **Firefox** and go to:
 
-```markdown
-[about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
+```md
+about:debugging#/runtime/this-firefox
 ```
 
 2. Click **“Load Temporary Add-on…”**
