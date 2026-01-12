@@ -1,11 +1,11 @@
-# 🔍 Search With
+# Search With
 
 A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.  
 With this extension, you can highlight any text and instantly search it on your favorite sites.
 
 >> OOB includes **DuckDuckGo**, **IMDb**, **GTA Cars**, **Metal Archives**, and **Songsterr**.
 
-## 📋 Features
+## Features
 
 This extension adds several custom entries to the right-click (context) menu when you select text on a webpage:
 
@@ -15,7 +15,7 @@ This extension adds several custom entries to the right-click (context) menu whe
 - **Metal Archives** — Search by band, album, song, or artist.
 - **Songsterr** — Search for music tablature.
 
-## ⚙️ How It Works
+## How It Works
 
 Each menu item is created using the `browser.contextMenus.create()` API.  
 When you right-click on selected text, the extension shows available search options.  
@@ -25,7 +25,7 @@ Upon selecting one, it:
 2. Encodes it for use in a URL.
 3. Opens a new browser tab with the corresponding search result page.
 
-## 🧩 Installation (Temporary)
+## Installation (Temporary)
 
 Firefox has not yet accepted the addon, so at this time you'll need to add it using temporary extensions:
 
@@ -34,13 +34,13 @@ Firefox has not yet accepted the addon, so at this time you'll need to add it us
 2. Click **“Load Temporary Add-on…”**
 3. Select the extension’s `manifest.json` file from your project folder.
 
->> ⚠️ Note: The extension will be removed when Firefox restarts. This is not up to me to change.
+>> Note: The extension will be removed when Firefox restarts. This is not up to me to change.
 
-## 🧠 Example: Adding a New Search Option
+## Example: Adding a New Search Option
 
 You can easily extend this extension by adding new menu items.
 
-Here’s an example:
+Example:
 
 ```js
 browser.contextMenus.create({
