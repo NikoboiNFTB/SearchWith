@@ -37,16 +37,25 @@ Example:
 
 ```js
 browser.contextMenus.create({
-  id: "<unique-id>",
-  title: "Example",
+  id: "search-on-songsterr",          // Change this to anything unique
+  title: "Songsterr",                 // Change to website title
   contexts: ["selection"],
-  icons: { "32": "icons/icon32.png" }
+  icons: {
+    "32": "icons/songsterr32.png",    // Change path to your icon
+  }
 });
 
-browser.contextMenus.onClicked.addListener((info) => {
-  if (info.menuItemId === "<unique-id>") {
-    const query = encodeURIComponent(info.selectionText);
-    browser.tabs.create({ url: `https://example.com/search=${query}` });
+browser.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === "search-on-songsterr") {      // This needs to match id
+    const selectedText = info.selectionText;
+
+    const query = encodeURIComponent(selectedText);
+
+    const songsterrUrl = `https://www.songsterr.com/?pattern=${query}`;   // Change to unique id, also search URL. Replace the search term with ${query}
+
+    browser.tabs.create({
+      url: songsterrUrl     // same as const above
+    });
   }
 });
 ```
