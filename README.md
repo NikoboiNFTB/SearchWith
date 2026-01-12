@@ -19,7 +19,11 @@ This extension adds several search entries to the right-click (context) menu whe
 You will need to add it using temporary extensions:
 
 1. Open **Firefox** and go to:
-```about:debugging#/runtime/this-firefox```
+
+```md
+[about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
+```
+
 2. Click **“Load Temporary Add-on…”**
 3. Select the extension’s `[manifest.json](1.0/manifest.json)` file from the [project folder](1.0).
 
