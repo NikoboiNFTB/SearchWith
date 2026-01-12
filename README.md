@@ -20,7 +20,7 @@ You will need to add it using temporary extensions:
 
 1. Open **Firefox** and go to:
 
-```text
+```markdown
 [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
 ```
 
