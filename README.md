@@ -3,14 +3,12 @@
 A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.  
 With this extension, you can highlight any text and instantly search it on your favorite sites.
 
->> OOB includes **DuckDuckGo**, **IMDb**, **GTA Cars**, **Metal Archives**, and **Songsterr**.
-
 ## Features
 
-This extension adds several custom entries to the right-click (context) menu when you select text on a webpage:
+This extension adds several search entries to the right-click (context) menu when you select text on a website. Out of the box this extension includes searches:
 
 - **DuckDuckGo** — Search the web.
-- **GTA Cars** — Find vehicles from the *Grand Theft Auto* series.
+- **GTA Cars** — Find vehicles from the *Grand Theft Auto*-series.
 - **IMDb** — Search for movies, TV shows, or people.
 - **Metal Archives** — Search by band, album, song, or artist.
 - **Songsterr** — Search for music tablature.
