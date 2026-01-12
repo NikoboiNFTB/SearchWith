@@ -1,6 +1,7 @@
 # Search With
 
-A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.  
+A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.
+
 With this extension, you can highlight any text and instantly search it on your favorite sites.
 
 ## Overview
@@ -13,12 +14,12 @@ This extension adds several search entries to the right-click (context) menu whe
 - **Metal Archives** — Search by band, album, song, or artist.
 - **Songsterr** — Search for music tablature.
 
-## Installation (Temporary)
+## Installation
 
-Firefox has not yet accepted the addon, so at this time you'll need to add it using temporary extensions:
+You will need to add it using temporary extensions:
 
-1. Open **Firefox** and go to:  
-   `about:debugging#/runtime/this-firefox`
+1. Open **Firefox** and go to:
+```about:debugging#/runtime/this-firefox```
 2. Click **“Load Temporary Add-on…”**
 3. Select the extension’s `[manifest.json](1.0/manifest.json)` file from the [project folder](1.0).
 
