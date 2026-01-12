@@ -1,7 +1,8 @@
 # 🔍 Search With
 
 A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.  
-With this extension, you can highlight any text and instantly search it on your favorite sites.  
+With this extension, you can highlight any text and instantly search it on your favorite sites.
+
 >> OOB includes **DuckDuckGo**, **IMDb**, **GTA Cars**, **Metal Archives**, and **Songsterr**.
 
 ---
