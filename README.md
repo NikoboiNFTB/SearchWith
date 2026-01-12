@@ -3,25 +3,15 @@
 A simple **Firefox Extension** that adds multiple **context menu search options** to your browser.  
 With this extension, you can highlight any text and instantly search it on your favorite sites.
 
-## Features
+## Overview
 
 This extension adds several search entries to the right-click (context) menu when you select text on a website. Out of the box this extension includes searches:
 
 - **DuckDuckGo** — Search the web.
-- **GTA Cars** — Find vehicles from the *Grand Theft Auto*-series.
+- **GTA Cars** — Find vehicles from the *Grand Theft Auto* series.
 - **IMDb** — Search for movies, TV shows, or people.
 - **Metal Archives** — Search by band, album, song, or artist.
 - **Songsterr** — Search for music tablature.
-
-## How It Works
-
-Each menu item is created using the `browser.contextMenus.create()` API.  
-When you right-click on selected text, the extension shows available search options.  
-Upon selecting one, it:
-
-1. Reads the highlighted text.
-2. Encodes it for use in a URL.
-3. Opens a new browser tab with the corresponding search result page.
 
 ## Installation (Temporary)
 
@@ -30,7 +20,7 @@ Firefox has not yet accepted the addon, so at this time you'll need to add it us
 1. Open **Firefox** and go to:  
    `about:debugging#/runtime/this-firefox`
 2. Click **“Load Temporary Add-on…”**
-3. Select the extension’s `manifest.json` file from your project folder.
+3. Select the extension’s `[manifest.json](1.0/manifest.json)` file from the [project folder](1.0).
 
 >> Note: The extension will be removed when Firefox restarts. This is not up to me to change.
 
