@@ -87,6 +87,7 @@ browser.contextMenus.create({
   contexts: ["selection"],
   icons: {
     "16": "icons/metallum16.png",
+    "128": "icons/metallum128.png",
   }
 });
 
@@ -113,6 +114,7 @@ browser.contextMenus.create({
   contexts: ["selection"],
   icons: {
     "16": "icons/metallum16.png",
+    "128": "icons/metallum128.png",
   }
 });
 
@@ -139,6 +141,7 @@ browser.contextMenus.create({
   contexts: ["selection"],
   icons: {
     "16": "icons/metallum16.png",
+    "128": "icons/metallum128.png",
   }
 });
 
@@ -165,6 +168,7 @@ browser.contextMenus.create({
   contexts: ["selection"],
   icons: {
     "16": "icons/metallum16.png",
+    "128": "icons/metallum128.png",
   }
 });
 
