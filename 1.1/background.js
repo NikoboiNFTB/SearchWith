@@ -4,7 +4,6 @@
 //  title: "DuckDuckGo",
 //  contexts: ["selection"],
 //  icons: {
-//    "15": "icons/duckduckgo15.png",
 //    "32": "icons/duckduckgo32.png",
 //  }
 //});
@@ -31,12 +30,9 @@ browser.contextMenus.create({
   title: "GTA Cars",
   contexts: ["selection"],
   icons: {
-    "16": "icons/gtacars16.png",
     "32": "icons/gtacars32.png",
-    "48": "icons/gtacars48.png",
     "64": "icons/gtacars64.png",
-    "64": "icons/gtacars64.png",
-    "196": "icons/gtacars196.png"
+    "128": "icons/gtacars128.png",
   }
 });
 
@@ -63,7 +59,8 @@ browser.contextMenus.create({
   contexts: ["selection"],
   icons: {
     "32": "icons/imdb32.png",
-    "196": "icons/imdb196.png"
+    "64": "icons/imdb64.png",
+    "128": "icons/imdb128.png",
   }
 });
 
@@ -193,7 +190,9 @@ browser.contextMenus.create({
   title: "Songsterr",
   contexts: ["selection"],
   icons: {
-    "32": "icons/songsterr32.png",
+    "64": "icons/songsterr64.png",
+    "128": "icons/songsterr128.png",
+    "180": "icons/songsterr180.png",
   }
 });
 
