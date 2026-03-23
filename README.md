@@ -9,7 +9,7 @@ With this extension, you can highlight any text and instantly search it on your 
 This extension adds several search entries to the right-click (context) menu when you select text on a website. Out of the box this extension includes searches:
 
 - **DuckDuckGo** — Search the web.
-- **GTA Cars** — Find vehicles from the *Grand Theft Auto* series.
+- **GTA Cars** — Find vehicles from the _Grand Theft Auto_ series.
 - **IMDb** — Search for movies, TV shows, or people.
 - **Metal Archives** — Search by band, album, song, or artist.
 - **Songsterr** — Search for music tablature.
@@ -27,7 +27,7 @@ about:debugging#/runtime/this-firefox
 2. Click **“Load Temporary Add-on…”**
 3. Select the extension’s [`manifest.json`](1.0/manifest.json) file from the project folder ([`1.0`](1.0)).
 
->> Note: The extension will be removed when Firefox restarts. This is not up to me to change.
+> > Note: The extension will be removed when Firefox restarts. This is not up to me to change.
 
 ## Adding Search Options
 
